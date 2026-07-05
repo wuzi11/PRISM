@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Secrets
+config/llm.env
+
+# Data & outputs (large / local)
+datasets/
+datasets_lincs/
+checkpoints/
+results/
+logs/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
