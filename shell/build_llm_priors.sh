@@ -109,7 +109,7 @@ fi
 echo "  output : ${PRIOR_PATH}"
 echo "  log    : ${LOG_PATH}"
 if [[ "${PRIOR_MODE}" == "llm" ]]; then
-  echo "  model  : ${LLM_MODEL:-deepseek-v4-flash}"
+  echo "  model  : ${LLM_MODEL:-deepseek-v4-pro}"
   echo "  workers: ${CONCURRENCY}"
 fi
 
