@@ -212,7 +212,7 @@ def main():
     )
     parser.add_argument(
         "--llm_model",
-        default=os.environ.get("LLM_MODEL", "deepseek-v4-flash"),
+        default=os.environ.get("LLM_MODEL", "deepseek-v4-pro"),
     )
     parser.add_argument("--llm_api_key_env", default="OPENAI_API_KEY")
     parser.add_argument("--llm_temperature", type=float, default=0.0)
